@@ -4,10 +4,9 @@
 
 /**
  * main - Prints the last digit randomly selected number
- * whether it is greater than 5, less than 6 or 0
+ * whether it is greater than 5, less than 6, or 0
  *
  * Return: Always 0 (success)
-
  */
 int main(void)
 {
