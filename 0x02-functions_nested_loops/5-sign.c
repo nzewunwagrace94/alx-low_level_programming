@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sigh - function to print sigh of a number
+ * print_sign - function to print sigh of a number
  * @n: function parameter
  * Return: 1, 0, or -1
  */
