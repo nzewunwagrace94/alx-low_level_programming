@@ -1,20 +1,21 @@
-#include <stdio.h>
+#include "stdio.h"
 
 /**
- * main - print natural number
- * Return: Always return 0
+ * main - check the code.
+ *
+ * Return: Always 0.
  */
+
 
 int main(void)
 {
 	int sum = 0;
 	int i;
 
-	for (i = 0 ; i < 1024 ; i++)
+	for (i = 0 ; i < 10 ; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
-		sum = sum + i;
+			sum = sum + i;
 	}
-
 	printf("%d\n", sum);
 }
