@@ -1,11 +1,9 @@
 #include "stdio.h"
 
 /**
- * main - check the code.
- *
+ * main - funtion to sum multiple of 3 or 5 in  numbers below 1024
  * Return: Always 0.
  */
-
 
 int main(void)
 {
