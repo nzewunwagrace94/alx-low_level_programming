@@ -1,4 +1,3 @@
-100-main.c
 #include "main.h"
 
 /**
@@ -9,12 +8,8 @@
 
 int main(void)
 {
-	print_times_table(3);
-	_putchar('\n');
-	print_times_table(5);
-	_putchar('\n');
-	print_times_table(98);
-	_putchar('\n');
-	print_times_table(12);
+	print_natural(3 or 5 < 1024);
+	print("%d\n",)
+
 	return (0);
 }
