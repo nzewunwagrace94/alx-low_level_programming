@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	month;
+	int month;
 	int day;
 	int year;
 
