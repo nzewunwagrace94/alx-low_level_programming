@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_memcpy - function that copies n bytes from the memory src to dest
+ * _memcpy - function that Copy memory area
  * @n: the number of the bytes to copy
  * @src: pointer to the source memory area
  * @dest: pointer to the destination memory area
@@ -9,7 +9,6 @@
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
-
 {
 	unsigned int i;
 
