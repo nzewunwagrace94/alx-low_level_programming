@@ -9,14 +9,17 @@
 
 char *create_array(unsigned int size, char c)
 {
-	 char *ptarray;
+	 char *array;
 	 unsigned int count;
 
+	if (size == 0)
+		return (NULL);
+
 	 /*allocate memory space for the all the arrays*/
-	 ptarray = malloc(sizeof(char) * size);
+	array = malloc(sizeof(char) * size);
 
 	 /*check if malloc does not return NULL */
-	if (ptarray == NULL)
+	if (array == NULL)
 		return (NULL);
 
 	 /*put char in each of the space allocated*/
@@ -25,8 +28,6 @@ char *create_array(unsigned int size, char c)
 		count++;
 
 	/*assigning char to the specific memory location*/
-
-		ptarray[count] = c;
-
-	return (ptarray);
+		array[count] = c;
+	return (array);
 }
