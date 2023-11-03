@@ -4,7 +4,7 @@
  * string_nconcat - function that concatenates two strings
  * @s1: string 1
  * @s2: string 2
- * @n: number of bytes to concatenates
+ * @n: number of bytes to concatenate
  * Return: concatenated string
  */
 
