@@ -1,6 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * main - perform calculator function on command line
@@ -8,7 +8,7 @@
  * @argv: argument vector
  * Return: results of calc function execution 
  */
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	char *op;
 	int num1, num2;
@@ -21,7 +21,7 @@ int main(int argc, int *argv[])
 	
 	num1 = atoi(argv[1]);
 	op = (argv[2]);
-	num = atoi(argv[3]);
+	num2 = atoi(argv[3]);
 
 	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
