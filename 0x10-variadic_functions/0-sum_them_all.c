@@ -3,9 +3,7 @@
 /**
  * sum_them_all - Return the sum of all it's parameters.
  * @n: number of parameters passed to the function
- *
- * Description: function that return the sum of all its parameters
- * Return: Sum
+ * Return: sum of all parameter
  */
 
 int sum_them_all(const unsigned int n, ...)
@@ -26,5 +24,5 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_end(args); /* end args */
 
-	return (0);
+	return (sum);
 }
