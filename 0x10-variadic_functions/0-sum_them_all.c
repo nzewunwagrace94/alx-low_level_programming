@@ -3,6 +3,8 @@
 /**
  * sum_them_all - Return the sum of all it's parameters.
  * @n: number of parameters passed to the function
+ * @...: A variable number of parameters to calculate the sum of
+ *
  * Return: sum of all parameter
  */
 
