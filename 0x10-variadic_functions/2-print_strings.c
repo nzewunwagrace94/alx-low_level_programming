@@ -4,6 +4,8 @@
  * print_strings - print strings passed to a function
  * @separator: string to be printed between string
  * @n: number of argument
+ * Description: If separator is NULL, it is not printed.
+ *If one of the strings if NULL, (nil) is printed instead.
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -21,7 +23,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		if (str == NULL)
 		{
-			printf("(nill)");
+			printf("(nil)");
 		}
 		else
 		{
@@ -30,6 +32,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (i != (n - 1) && separator != NULL)
 			printf("%s", separator);
 	}
+
 	printf("\n");
+
 	va_end(ptr_str);
 }
