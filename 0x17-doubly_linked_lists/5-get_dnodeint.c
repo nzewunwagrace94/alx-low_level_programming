@@ -4,7 +4,7 @@
  * get_dnodeint_at_index - it returns the nth node of a linked list.
  * @head: the head as the pointer
  * @index: is the index of the node, starting from 0
- * Rturn: NULL if the node does not exit
+ * Return: NULL if the node does not exit
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
